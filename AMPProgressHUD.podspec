@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMPProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于MBProgressHUD的封装'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/tangjugang/AMPProgressHUD'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tangjugang' => '437418200@qq.com' }
+  s.author           = { 'Etre' => '437418200@qq.com' }
   s.source           = { :git => 'https://github.com/tangjugang/AMPProgressHUD.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.ios.vendored_framework   = 'AMPProgressHUD/AMPProgressHUD.framework'
