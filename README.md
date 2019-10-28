@@ -22,7 +22,7 @@ pod 'AMPProgressHUD'
 
 ## Author
 
-Etre, 437418200@qq.com
+Etre
 
 ## License
 
