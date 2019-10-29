@@ -97,12 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.bundle"
-  install_resource "${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.framework"
+  install_resource "${PODS_ROOT}/../../AMPProgressHUD/AMPProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.bundle"
-  install_resource "${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.framework"
+  install_resource "${PODS_ROOT}/../../AMPProgressHUD/AMPProgressHUD.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

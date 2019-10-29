@@ -1,6 +1,0 @@
-framework module AMPProgressHUD {
-  umbrella header "AMPProgressHUD.h"
-
-  export *
-  module * { export * }
-}

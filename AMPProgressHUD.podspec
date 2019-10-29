@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/tangjugang/AMPProgressHUD.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.ios.vendored_framework   = 'AMPProgressHUD/AMPProgressHUD.framework'
-  s.resources = 'AMPProgressHUD/AMPProgressHUD.bundle'
+  s.resources = 'AMPProgressHUD/*'
   s.dependency 'MBProgressHUD'
 
 end

@@ -461,13 +461,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AMPProgressHUD_Example/Pods-AMPProgressHUD_Example-resources.sh",
-				"${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.bundle",
-				"${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.framework",
+				"${PODS_ROOT}/../../AMPProgressHUD/AMPProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMPProgressHUD.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMPProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,13 +558,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AMPProgressHUD_Example-AMPProgressHUD/Pods-AMPProgressHUD_Example-AMPProgressHUD-resources.sh",
-				"${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.bundle",
-				"${PODS_ROOT}/AMPProgressHUD/AMPProgressHUD/AMPProgressHUD.framework",
+				"${PODS_ROOT}/../../AMPProgressHUD/AMPProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMPProgressHUD.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMPProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

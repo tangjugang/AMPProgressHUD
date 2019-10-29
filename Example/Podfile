@@ -3,8 +3,8 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'AMPProgressHUD_Example' do
-#  pod 'AMPProgressHUD', :path => '../'
-  pod 'AMPProgressHUD'
+  pod 'AMPProgressHUD', :path => '../'
+#  pod 'AMPProgressHUD'
   
   target 'AMPProgressHUD' do
     pod 'MBProgressHUD'
